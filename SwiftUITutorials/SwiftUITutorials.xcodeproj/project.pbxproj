@@ -11,6 +11,8 @@
 		8D9CD70B26E5E6DF00F72FC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9CD70A26E5E6DF00F72FC2 /* ContentView.swift */; };
 		8D9CD70D26E5E6DF00F72FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9CD70C26E5E6DF00F72FC2 /* Assets.xcassets */; };
 		8D9CD71026E5E6DF00F72FC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9CD70F26E5E6DF00F72FC2 /* Preview Assets.xcassets */; };
+		8D9CD71826E61EA600F72FC2 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9CD71726E61EA600F72FC2 /* CircleImage.swift */; };
+		8D9CD71A26E6209C00F72FC2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9CD71926E6209C00F72FC2 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		8D9CD70C26E5E6DF00F72FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D9CD70F26E5E6DF00F72FC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8D9CD71126E5E6DF00F72FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D9CD71726E61EA600F72FC2 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		8D9CD71926E6209C00F72FC2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				8D9CD70826E5E6DF00F72FC2 /* SwiftUITutorialsApp.swift */,
 				8D9CD70A26E5E6DF00F72FC2 /* ContentView.swift */,
+				8D9CD71726E61EA600F72FC2 /* CircleImage.swift */,
+				8D9CD71926E6209C00F72FC2 /* MapView.swift */,
 				8D9CD70C26E5E6DF00F72FC2 /* Assets.xcassets */,
 				8D9CD71126E5E6DF00F72FC2 /* Info.plist */,
 				8D9CD70E26E5E6DF00F72FC2 /* Preview Content */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D9CD70B26E5E6DF00F72FC2 /* ContentView.swift in Sources */,
+				8D9CD71A26E6209C00F72FC2 /* MapView.swift in Sources */,
 				8D9CD70926E5E6DF00F72FC2 /* SwiftUITutorialsApp.swift in Sources */,
+				8D9CD71826E61EA600F72FC2 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
