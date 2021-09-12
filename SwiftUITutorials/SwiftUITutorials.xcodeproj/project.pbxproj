@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D7360C626ECD4CF00880ED3 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7360C526ECD4CF00880ED3 /* FeatureCard.swift */; };
+		8D7360C826ED304300880ED3 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7360C726ED304300880ED3 /* PageView.swift */; };
+		8D7360CA26EE31D500880ED3 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7360C926EE31D500880ED3 /* PageControl.swift */; };
+		8D7B275C26EBAD05009DD1AF /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7B275B26EBAD05009DD1AF /* PageViewController.swift */; };
 		8D9CD70926E5E6DF00F72FC2 /* SwiftUITutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9CD70826E5E6DF00F72FC2 /* SwiftUITutorialsApp.swift */; };
 		8D9CD70B26E5E6DF00F72FC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9CD70A26E5E6DF00F72FC2 /* ContentView.swift */; };
 		8D9CD70D26E5E6DF00F72FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9CD70C26E5E6DF00F72FC2 /* Assets.xcassets */; };
@@ -42,6 +46,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D7360C526ECD4CF00880ED3 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		8D7360C726ED304300880ED3 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		8D7360C926EE31D500880ED3 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		8D7B275B26EBAD05009DD1AF /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PageViewController.swift; path = SwiftUITutorials/Views/Profiles/PageViewController.swift; sourceTree = SOURCE_ROOT; };
 		8D9CD70526E5E6DF00F72FC2 /* SwiftUITutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITutorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9CD70826E5E6DF00F72FC2 /* SwiftUITutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITutorialsApp.swift; sourceTree = "<group>"; };
 		8D9CD70A26E5E6DF00F72FC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +97,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D7B275A26EBACEA009DD1AF /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				8D7B275B26EBAD05009DD1AF /* PageViewController.swift */,
+				8D7360C726ED304300880ED3 /* PageView.swift */,
+				8D7360C926EE31D500880ED3 /* PageControl.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
 		8D9CD6FC26E5E6DF00F72FC2 = {
 			isa = PBXGroup;
 			children = (
@@ -195,12 +213,14 @@
 		8DFC0B5826E63A0700CD94DD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8D7B275A26EBACEA009DD1AF /* PageView */,
 				8DA3605A26EA2C93009815EE /* Profiles */,
 				8D9CD70A26E5E6DF00F72FC2 /* ContentView.swift */,
 				8DC166C726E8D8E00009D837 /* CategoryHome */,
 				8DFC0B6126E661AE00CD94DD /* Landmarks */,
 				8DFC0B6226E661BC00CD94DD /* Helpers */,
 				8DD282F526E7BBB70013F4D7 /* Badges */,
+				8D7360C526ECD4CF00880ED3 /* FeatureCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -300,11 +320,13 @@
 				8DA3605926EA2BAB009815EE /* Profile.swift in Sources */,
 				8D9CD70B26E5E6DF00F72FC2 /* ContentView.swift in Sources */,
 				8DC166C926E8D8F90009D837 /* CategoryHome.swift in Sources */,
+				8D7360C626ECD4CF00880ED3 /* FeatureCard.swift in Sources */,
 				8DD2830026E7CE480013F4D7 /* HikeGraph.swift in Sources */,
 				8DD282F426E7B9690013F4D7 /* Badge.swift in Sources */,
 				8D9CD71A26E6209C00F72FC2 /* MapView.swift in Sources */,
 				8DD282FF26E7CE480013F4D7 /* GraphCapsule.swift in Sources */,
 				8DD282F226E7B8F40013F4D7 /* RotatedBadgeSymbol.swift in Sources */,
+				8D7360CA26EE31D500880ED3 /* PageControl.swift in Sources */,
 				8D9CD70926E5E6DF00F72FC2 /* SwiftUITutorialsApp.swift in Sources */,
 				8DC166CD26E8E4F60009D837 /* CategoryItem.swift in Sources */,
 				8DD2830126E7CE480013F4D7 /* HikeDetail.swift in Sources */,
@@ -313,11 +335,13 @@
 				8DA3605C26EA2CA6009815EE /* ProfileHost.swift in Sources */,
 				8DD282F926E7CBF60013F4D7 /* Hike.swift in Sources */,
 				8DD282EC26E751EF0013F4D7 /* HexagonParameters.swift in Sources */,
+				8D7360C826ED304300880ED3 /* PageView.swift in Sources */,
 				8DD282F026E7B5980013F4D7 /* BadgeSymbol.swift in Sources */,
 				8DA3606226EA8BCE009815EE /* ProfileEditor.swift in Sources */,
 				8DFC0B5C26E63C2100CD94DD /* LandmarkList.swift in Sources */,
 				8DD2830226E7CE480013F4D7 /* HikeView.swift in Sources */,
 				8DFC0B5E26E63F2A00CD94DD /* LandmarkDetail.swift in Sources */,
+				8D7B275C26EBAD05009DD1AF /* PageViewController.swift in Sources */,
 				8DD282EE26E753E10013F4D7 /* BadgeBackground.swift in Sources */,
 				8DA3606026EA4610009815EE /* HikeBadge.swift in Sources */,
 				8D9CD71826E61EA600F72FC2 /* CircleImage.swift in Sources */,
